@@ -31,6 +31,11 @@ numpy
  parameter:point  get the value of the point you set, generate the new image based on the value.
  
  
+2020/08/22 Second Changes!
+
+Add a new function!The new function support a adaptive parameter to delete stamps!
+ 
+ 
  
  **To Do**
  
