@@ -16,6 +16,8 @@ Add a stamp tool,the tool is to delete red stamps on paper.It can delete the red
 
 requrements:
 
+python3
+
 opencv 3.0+
 
 numpy
