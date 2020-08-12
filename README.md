@@ -32,7 +32,12 @@ numpy
  parameter:point  get the value of the point you set, generate the new image based on the value.
  
  
-
+ 
+ **To Do**
+ 
+ a data base of chinese hand writing
+ 
+ a tool of chinese hand writing text recognition
 
 
 
