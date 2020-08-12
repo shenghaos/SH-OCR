@@ -12,8 +12,7 @@ SH-OCR is a collection of documents processing and text recognition tools.I hope
 
 **STAMP TOOL**
 
-Add a stamp tool,the tool is to delete red stamps on paper.It can delete the red stamps while retaining the words covered by the stamps. But you need to note that this tool is only suitable for pictures with white background, black characters and red stamps.
-
+Add a stamp tool,the tool is to delete red stamps on paper.It can delete the red stamps while retaining the words covered by the stamps. 
 requrements:
 
 python3
