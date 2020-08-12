@@ -38,6 +38,10 @@ numpy
  a data base of chinese hand writing
  
  a tool of chinese hand writing text recognition
+ 
+ lisense:
+ 
+ BSD 3
 
 
 
