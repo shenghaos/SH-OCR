@@ -1,7 +1,5 @@
 # SH-OCR
 
-文档处理和文本识别工具
-
 欢迎来到SH-OCR!
 
 SH-OCR是一个文档处理和文本识别工具，希望您能喜欢我的工作！
@@ -32,7 +30,7 @@ numpy
 2020/08/15 更新!
 
 分享本人制作的一个手写汉字数据集，这个数据集是根据中科院自动化所的HWDB加工的，将单字拼成了字符串。需要说明的是，HWDB不是很全，只有3755个字。此外，语义信息用的是搜狗提供的新闻数据。
-链接：![百度网盘](https://pan.baidu.com/s/1hpaRBDvswOlyigpZ8460AA)
+链接：https://pan.baidu.com/s/1hpaRBDvswOlyigpZ8460AA
 提取码：i6km
  
  
