@@ -16,4 +16,14 @@ Document processing and text recognition tools
 
 提取码： i6km
 
+**TO DO**
+
+一个手写汉字的CRNN模型
+
+
+ **QQ群：**
+ 
+ 797340490
+ 
+ （本人也是菜鸟一枚，希望大家一起学习交流！）
 
