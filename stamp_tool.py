@@ -111,7 +111,7 @@ def detect_and_delete_stamp(img, stamp_d=80, k=1):
         if len(ct) > 100:
             center, length, angle = cv.fitEllipse(ct)
             a, b = length
-            if min(a, b) > 20 and max(a, b) < min(a, b) * 1.2 and min(a, b) > stamp_d:
+            if max(a, b) < min(a, b) * 1.2 and min(a, b) > stamp_d:
                 boundary.append(cv.boundingRect(ct))
         else:
             continue
