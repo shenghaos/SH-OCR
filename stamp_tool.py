@@ -40,9 +40,6 @@ def adaptive_delete_stamp(img, point=(), k=1.2):
 
     end = cv.threshold(V, ss, 255, cv.THRESH_BINARY)[1]
 
-    # cv.imshow('v', end)
-    # cv.waitKey(0)
-
     if point != ():
         end = 255 - end
 
@@ -71,7 +68,7 @@ def adaptive_delete_stamp(img, point=(), k=1.2):
     dst = cv.merge([end, end, end])
     return dst
 
-
+#第一个返回值是结果图，第二个返回值是章的外接矩形坐标
 def detect_and_delete_stamp(img, stamp_d=80, k=1):
     if isinstance(img, str):
         img = cv.imread(img)
@@ -133,7 +130,7 @@ def detect_and_delete_stamp(img, stamp_d=80, k=1):
         new = cv.merge([new_area, new_area, new_area])
         img[y - 2:y + h + 2, x - 2:x + w + 2] = new
 
-    return img
+    return img，boundary
 
 
 def delete_stamp(img, thr=120, point=(-1, -1)):
