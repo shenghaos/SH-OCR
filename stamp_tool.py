@@ -118,7 +118,7 @@ def detect_and_delete_stamp(img, stamp_d=80, k=1):
                 boundary.append(cv.boundingRect(ct))
         else:
             continue
-    assert boundary != [], 'detect stamp failed!'
+    assert boundary != [], 'detect stamp failed! you may adapt the value of stamp_p!'
 
     for b in boundary:
         x, y, w, h = b
